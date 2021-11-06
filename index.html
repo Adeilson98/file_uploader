@@ -17,7 +17,43 @@
 </head>
 
 <body>
-    <h1>Testing</h1>
+    <div class="wrapper">
+        <header>File Uploader</header>
+        <form action="#">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <p>Pick an Archive to Upload!</p>
+        </form>
+
+        <section class="progress-area">
+            <li class="row">
+                <i class="fas fa-file-alt"></i>
+                <div class="content">
+                    <div class="details">
+                        <span class="name">image_01.png - Uploading</span>
+                        <span class="percent">50%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+            </li>
+        </section>
+        <section class="uploaded-area">
+            <li class="row">
+                <i class="fas fa-file-alt"></i>
+                <div class="content">
+                    <div class="details">
+                        <span class="name">image_01.png - Uploaded</span>
+                        <span class="size">70 KB</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <i class="fas fa-check"></i>
+            </li>
+        </section>
+    </div>
 </body>
 
 </html>
